@@ -1,8 +1,8 @@
 package main
 
 import (
-	"go-postgres-microblog/internal/data"
-	"go-postgres-microblog/internal/server"
+	"go-postgres-microblog-openshift/internal/data"
+	"go-postgres-microblog-openshift/internal/server"
 	"log"
 	"os"
 	"os/signal"

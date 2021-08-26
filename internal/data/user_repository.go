@@ -2,7 +2,7 @@ package data
 
 import (
 	"context"
-	"go-postgres-microblog/pkg/user"
+	"go-postgres-microblog-openshift/pkg/user"
 	"time"
 )
 

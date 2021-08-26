@@ -3,8 +3,8 @@ package v1
 import (
 	"encoding/json"
 	"fmt"
-	"go-postgres-microblog/pkg/response"
-	"go-postgres-microblog/pkg/user"
+	"go-postgres-microblog-openshift/pkg/response"
+	"go-postgres-microblog-openshift/pkg/user"
 	"net/http"
 	"strconv"
 

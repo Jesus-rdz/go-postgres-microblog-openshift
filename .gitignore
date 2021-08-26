@@ -1,4 +1,4 @@
-.env
+
 *.mod
 *.sum
 *.exe

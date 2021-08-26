@@ -1,7 +1,7 @@
 package server
 
 import (
-	v1 "go-postgres-microblog/internal/server/v1"
+	v1 "go-postgres-microblog-openshift/internal/server/v1"
 	"log"
 	"net/http"
 	"time"
