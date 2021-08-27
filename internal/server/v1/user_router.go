@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/response"
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/user"
+	"go-postgres-microblog-openshift/pkg/response"
+	"go-postgres-microblog-openshift/pkg/user"
 
 	"github.com/go-chi/chi"
 )

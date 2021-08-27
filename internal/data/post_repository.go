@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/post"
+	"go-postgres-microblog-openshift/pkg/post"
 )
 
 type PostRepository struct {

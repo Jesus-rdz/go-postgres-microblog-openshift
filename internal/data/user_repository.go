@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/user"
+	"go-postgres-microblog-openshift/pkg/user"
 )
 
 type UserRepository struct {

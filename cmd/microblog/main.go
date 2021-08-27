@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/internal/data"
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/internal/server"
+	"go-postgres-microblog-openshift/internal/data"
+	"go-postgres-microblog-openshift/internal/server"
 
 	_ "github.com/joho/godotenv/autoload"
 )

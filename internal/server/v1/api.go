@@ -3,7 +3,7 @@ package v1
 import (
 	"net/http"
 
-	"github.com/Jesus-rdz/go-postgres-microblog-openshift/internal/data"
+	"go-postgres-microblog-openshift/internal/data"
 
 	"github.com/go-chi/chi"
 )
