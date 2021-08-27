@@ -3,10 +3,11 @@ package v1
 import (
 	"encoding/json"
 	"fmt"
-	"go-postgres-microblog-openshift/pkg/post"
-	"go-postgres-microblog-openshift/pkg/response"
 	"net/http"
 	"strconv"
+
+	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/post"
+	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/response"
 
 	"github.com/go-chi/chi"
 )

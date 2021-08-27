@@ -1,8 +1,9 @@
 package v1
 
 import (
-	"go-postgres-microblog-openshift/internal/data"
 	"net/http"
+
+	"github.com/Jesus-rdz/go-postgres-microblog-openshift/internal/data"
 
 	"github.com/go-chi/chi"
 )

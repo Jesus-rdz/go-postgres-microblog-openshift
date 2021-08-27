@@ -2,8 +2,9 @@ package data
 
 import (
 	"context"
-	"go-postgres-microblog-openshift/pkg/user"
 	"time"
+
+	"github.com/Jesus-rdz/go-postgres-microblog-openshift/pkg/user"
 )
 
 type UserRepository struct {
