@@ -15,7 +15,8 @@ RUN go mod init go-postgres-microblog-openshift
 
 RUN go mod tidy
 
-COPY *.go ./
+COPY go.mod ./
+COPY go.sum ./
 
 RUN go build ./cmd/microblog
 
