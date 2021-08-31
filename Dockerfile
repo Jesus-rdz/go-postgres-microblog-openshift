@@ -1,6 +1,9 @@
 #build stage
 FROM registry.access.redhat.com/ubi8/ubi
 
+ENV PORT=8080
+ENV DATABASE_URI=postgres://gopher:gopher@postgresql:5432/microblog?sslmode=disable
+
 #instal golang
 RUN dnf install tar wget go-toolset -y
 
